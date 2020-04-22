@@ -861,7 +861,6 @@ build_creation_wizard_view(AccountCreationWizard *view)
     g_signal_connect(priv->button_show_advanced, "clicked", G_CALLBACK(show_advanced), view);
     g_signal_connect_swapped(priv->button_connect_account_manager, "clicked", G_CALLBACK(show_connect_account_manager), view);
     g_signal_connect(priv->button_new_sip_account, "clicked", G_CALLBACK(create_new_sip_account), view);
-	g_signal_connect(priv->button_new_xmpp_account, "clicked", G_CALLBACK(create_new_sip_account), view);
 
     /* account_creation signals */
     g_signal_connect_swapped(priv->entry_username, "changed", G_CALLBACK(entries_new_account_changed), view);
