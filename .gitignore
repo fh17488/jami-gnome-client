@@ -1,4 +1,7 @@
 build/
 build-local/
 doc/Doxyfile
-
+.anjuta/
+.anjuta_sym_db.db
+.buildconfig
+client-gnome.anjuta
